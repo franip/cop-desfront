@@ -22,6 +22,8 @@ module.exports = {
     'no-else-return': ['error'],
     quotes: ['error', 'single'], // no es necesaria con prettier
     semi: ['error', 'always'], // no es necesaria con prettier
+    'arrow-body-style': ['error', 'as-needed'],
+    'prefer-arrow-callback': 'error',
   },
   overrides: [
     {
